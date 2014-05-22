@@ -6,7 +6,7 @@ For example:
 Router R1 saw spikes at t2 to s1, s4, s5 servers and no spikes at t2 to s2, s3,s6 and servers s7,s8,s9 didn't have measurement for 
 t2 timestamp.
 
-Then files, for example R1_dict.txt, under ./textfile/ folder will have { t2:[s1,s4,s5] } and so on for other timestamps
+Then files, for example R1_dict.txt, under ./textfiles/ folder will have { t2:[s1,s4,s5] } and so on for other timestamps
 files under noevent folder will have { t2:[s2,s3,s6] } and so on for other timestamps.
 
 main.py - is the tool which does the tasks described above. It requires pgsql.py. It needs to be run on the server where bismark active
