@@ -356,7 +356,7 @@ def main():
 			else:
 				print "Server",server,"no spike server",nospikeserver
 				for srv in server:
-					spikehops={}
+					#spikehops={}
 					k=dict_of_server[srv]
 					key = (rtr,k)
 					print "spike server",srv
@@ -367,7 +367,7 @@ def main():
 				for srv in nospikeserver:
 					k=dict_of_server[srv]
 					key = (rtr,k)
-					nospikehops={}
+					#nospikehops={}
 					print "no spike server",srv
 					print "No spike",key
 					if list_of_hops.has_key(key):
